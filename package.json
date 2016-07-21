@@ -1,7 +1,7 @@
 {
   "name": "drybody",
   "version": "0.1.0",
-  "description": "An Angular1.0 boilerplate for client-side SPA in the style of Hottowel — Edit",
+  "description": "An Angular1.0 boilerplate for client-side SPA in the style of Hottowel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,12 +14,31 @@
     "angular",
     "ui-router",
     "hottowel",
+    "material",
+    "flex",
     "scss"
   ],
   "author": "Nathan Bloom",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/moolbits/drybody/issues"
+  "dependencies": {
+    "gulp-webserver": "0.9.1",
+    "body-parser": "^1.8.2",
+    "express": "^4.9.3",
+    "morgan": "^1.1.1",
+    "serve-favicon": "^2.0.1"
   },
-  "homepage": "https://github.com/moolbits/drybody#readme"
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "del": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-inject": "^1.0.1",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "lodash": "^3.10.0",
+    "main-bower-files": "^2.13.1"
+  }
 }
