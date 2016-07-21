@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "description": "An Angular1.0 boilerplate for client-side SPA in the style of Hottowel",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/moolbits/drybody.git"
+    "type": "git"
+  },
+  "scripts": {
+    "init": "npm install",
+    "install": "bower install",
+    "clean": "gulp clean",
+    "build": "gulp"
   },
   "keywords": [
+    "ga-aluminati",
     "angular",
     "ui-router",
     "hottowel",
@@ -22,9 +25,6 @@
   "license": "MIT",
   "dependencies": {
     "gulp-webserver": "0.9.1",
-    "body-parser": "^1.8.2",
-    "express": "^4.9.3",
-    "morgan": "^1.1.1",
     "serve-favicon": "^2.0.1"
   },
   "devDependencies": {
