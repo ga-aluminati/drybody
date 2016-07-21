@@ -1,0 +1,25 @@
+{
+  "name": "drybody",
+  "version": "0.1.0",
+  "description": "An Angular1.0 boilerplate for client-side SPA in the style of Hottowel — Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moolbits/drybody.git"
+  },
+  "keywords": [
+    "angular",
+    "ui-router",
+    "hottowel",
+    "scss"
+  ],
+  "author": "Nathan Bloom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moolbits/drybody/issues"
+  },
+  "homepage": "https://github.com/moolbits/drybody#readme"
+}
