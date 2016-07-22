@@ -5,6 +5,7 @@
         'app.core',
         'app.widgets',
         'app.home',
+        'app.about',
         'app.layout'
     ]);
 })();

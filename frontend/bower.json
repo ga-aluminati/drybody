@@ -15,7 +15,6 @@
     "flex",
     "scss"
   ],
-  "private": true,
   "dependencies": {
     "jquery": "^2.2.2",
     "angular": "~1.5.7",
