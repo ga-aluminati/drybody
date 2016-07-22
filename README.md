@@ -50,8 +50,9 @@ _version: (rc-v1.0)_
 ### Build System Features
 
 - Socket server with livereload, soucemap-filter and fallback url [gulp-webserver](https://www.npmjs.com/package/gulp-webserver)
+- Custom scripts, css, and vendor files autosort on-inject per google spec ng1.0
 - SCSS to CSS compilation
-- CSS injection on build and reload
+- CSS autoprefix and inject on build and reload
 - Annotated Angular1.0 with a gulp wrapper on ng-annotate [gulp-ng-annotate](https://www.npmjs.com/package/gulp-ng-annotate)
 
 _more on this and docs on other items coming soon..._

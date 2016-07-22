@@ -1,8 +1,7 @@
 {
   "name": "drybody",
-  "version": "0.1.0",
+  "version": "rc-v0.1.0",
   "description": "An Angular1.0 boilerplate for client-side SPA in the style of Hottowel",
-  "main": "index.js",
   "repository": {
     "type": "git"
   },
