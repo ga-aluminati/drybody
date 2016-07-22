@@ -3,6 +3,12 @@
 (function() {
     'use strict';
 
+/** 
+* Code originally generated with the Hottowel Generator, by John Pappa, and adapted
+* Source: Google Chrome source code https://github.com/johnpapa/generator-hottowel
+* retrieved on, July 21, 2016. 
+*/
+
     angular
         .module('blocks.exception')
         .provider('exceptionHandler', exceptionHandlerProvider)
