@@ -13,8 +13,8 @@
   }
 
   var config = {
-    appErrorPrefix: '[theWell Error] ',
-    appTitle: 'theWell'
+    appErrorPrefix: '[Drybody Error] ',
+    appTitle: 'Drybody'
   };
 
   core.value('config', config);
@@ -28,7 +28,7 @@
       $logProvider.debugEnabled(true);
     }
     exceptionHandlerProvider.configure(config.appErrorPrefix);
-    routerHelperProvider.configure({ docTitle: config.appTitle + ': ' });
+    routerHelperProvider.configure({ docTitle: config.appTitle + ' - ' });
   }
 
 })();

@@ -20,7 +20,7 @@
                     templateUrl: 'app/about/about.html',
                     controller: 'AboutController',
                     controllerAs: 'vm',
-                    title: 'about',
+                    title: 'About',
                     settings: {
                         nav: 2,
                         content: 'About'

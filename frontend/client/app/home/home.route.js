@@ -20,7 +20,7 @@
                     templateUrl: 'app/home/home.html',
                     controller: 'HomeController',
                     controllerAs: 'vm',
-                    title: 'home',
+                    title: 'Home',
                     settings: {
                         nav: 1,
                         content: 'Home'
