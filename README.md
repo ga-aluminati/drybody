@@ -31,7 +31,7 @@ _version: (rc-v1.0)_
     gulp
     ```
 
-_note: gulp build task triggers a 'watch' task with livereload, html, css and javascript injection. Stream pipes through number of other task runners. For more info on the Build System see the next section._
+ _note: gulp build task triggers a 'watch' task with livereload, html, css and javascript injection. Stream pipes through number of other task runners. For more info on the Build System see the next section._
 
 4. Navigate to localhost:8000
 
@@ -42,7 +42,7 @@ _note: gulp build task triggers a 'watch' task with livereload, html, css and ja
     ```bash
     gulp clean
     ```
-_note: 'dist' in this case is in referance to the directory called /build_
+ _note: 'dest' in this case is in referance to the directory called /build_
 
 7. Write your application to /client with on-save reload
 
@@ -51,7 +51,7 @@ _note: 'dist' in this case is in referance to the directory called /build_
 
 - Socket server with livereload, soucemap-filter and fallback url [gulp-webserver](https://www.npmjs.com/package/gulp-webserver)
 - SCSS to CSS compilation
-- CSS njection on build and reload
+- CSS injection on build and reload
 - Annotated Angular1.0 with a gulp wrapper on ng-annotate [gulp-ng-annotate](https://www.npmjs.com/package/gulp-ng-annotate)
 
 _more on this and docs on other items coming soon..._
