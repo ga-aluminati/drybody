@@ -14,7 +14,7 @@
         activate();
 
         function activate() { 
-            logger.success('Home screen activated');
+            logger.info('Home screen activated');
         };
     };
 })();

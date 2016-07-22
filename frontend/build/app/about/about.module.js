@@ -1,11 +1,10 @@
-(function () {
+(function() {
     'use strict';
 
-    angular.module('app', [
+    angular.module('app.about', [
         'app.core',
         'app.widgets',
-        'app.home',
-        'app.about',
         'app.layout'
     ]);
+
 })();
