@@ -14,7 +14,7 @@
         activate();
 
         function activate() { 
-            logger.info('Home screen activated');
+            logger.info('Controller activates on route');
         };
     };
 })();

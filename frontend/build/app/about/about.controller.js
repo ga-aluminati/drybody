@@ -14,7 +14,7 @@
         activate();
 
         function activate() { 
-            logger.info('About screen activated');
+            logger.success('About screen activated');
         };
     };
 })();

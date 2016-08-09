@@ -1,23 +1,23 @@
 <div id="shell" ng-controller="ShellController as vm">
     <section class="wrapper">
         <header class="header" style="min-height:89px;">
-            <div class="clearfix">
-                <div ng-include="'app/layout/navbar.html'"></div>
+            <div ng-include="'app/layout/navbar.html'">
+                <!-- see header.html -->
             </div>
         </header>
         <aside class="aside aside-1">
             aside-1
         </aside>
         <main class="main" style="min-height:610px;">
-            <div class="clearfix">
             <div ui-view class="fade-in-animation"></div>
-            </div>
         </main>
         <aside class="aside aside-2">
             aside-2
         </aside>
         <footer class="footer" style="min-height:144px;">
-            <div ng-include="'app/layout/footer.html'"></div>
+            <div ng-include="'app/layout/footer.html'">
+                <!-- see footer.html -->
+            </div>
         </footer>
     </section>
 </div>
