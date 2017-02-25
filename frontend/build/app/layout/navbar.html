@@ -1,8 +1,0 @@
-<div ng-controller="NavbarController as vm">
-  
-        <ul class="navigation">
-            <li class="fade-selection-animation" ng-class="vm.isCurrent(r)" ng-repeat="r in vm.navRoutes">
-                <a ui-sref="{{r.name}}" class="main-animation" ng-bind-html="r.settings.content" aria-label="close()"></a>
-            </li>
-        </ul>
-</div> 
