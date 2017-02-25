@@ -1,7 +1,7 @@
 # drybody 
 _version: (rc-v1.0)_
 
-This implementation of Angular1.0 exposes an unstable, client side stack and advanced frontend architecture.
+This implementation of Angular1.0 exposes an unstable client side stack and advanced frontend architecture.
 
 ##### Prerequisites
 
@@ -23,10 +23,10 @@ This implementation of Angular1.0 exposes an unstable, client side stack and adv
     npm install 
     ```
 
-3. Copy souce from /client to /build and start server with livereload
+3. Serve build with livereload
 
     ```bash
-    gulp
+    cd frontend && gulp
     ```
 
     _Navigate to localhost:8000_
