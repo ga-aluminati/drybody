@@ -1,7 +1,7 @@
 {
   "name": "drybody",
-  "version": "0.1.0-rc-v1.0",
-  "description": "An Angular1.0 boilerplate for client-side SPA in the style of Hottowel",
+  "version": "0.1.0-rc1.0",
+  "description": "An Angular1.0 implementation and Gulp build system",
   "repository": {
     "type": "git"
   },
@@ -22,6 +22,9 @@
   ],
   "author": "Nathan Bloom",
   "license": "MIT",
+  "engines": {
+    "node": ">6.0.0"
+  },
   "dependencies": {
     "gulp-webserver": "0.9.1",
     "serve-favicon": "^2.0.1"
