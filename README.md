@@ -10,7 +10,7 @@ This implementation of Angular1.0 exposes an unstable client side stack and adva
 2. Install gulp globally
 
     ```bash
-    npm install -g gulp
+    npm install -g bower gulp
     ```
 
 ##### Quickstart
