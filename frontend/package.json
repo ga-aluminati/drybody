@@ -1,6 +1,6 @@
 {
   "name": "drybody",
-  "version": "0.1.0-rc1.0",
+  "version": "0.1.0",
   "description": "An Angular1.0 implementation and Gulp build system",
   "repository": {
     "type": "git"
@@ -9,15 +9,13 @@
     "init": "npm install",
     "install": "bower install",
     "clean": "gulp clean",
-    "build": "gulp"
+    "start": "gulp"
   },
   "keywords": [
     "ga-aluminati",
     "angular",
     "ui-router",
     "hottowel",
-    "material",
-    "flex",
     "scss"
   ],
   "author": "Nathan Bloom",
@@ -26,10 +24,10 @@
     "node": ">6.0.0"
   },
   "dependencies": {
-    "gulp-webserver": "0.9.1",
-    "serve-favicon": "^2.0.1"
   },
   "devDependencies": {
+    "gulp-webserver": "0.9.1",
+    "serve-favicon": "^2.0.1",
     "bower": "^1.7.9",
     "del": "^1.2.0",
     "gulp": "^3.9.1",
@@ -41,6 +39,7 @@
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^2.3.2",
     "lodash": "^3.10.0",
-    "main-bower-files": "^2.13.1"
+    "main-bower-files": "^2.13.1",
+    "node-sass": "^4.5.0"
   }
 }

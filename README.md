@@ -1,5 +1,5 @@
 # drybody 
-_version: (rc-v1.0)_
+_version: v0.1.0_
 
 This implementation of Angular1.0 exposes an unstable client side stack and advanced frontend architecture.
 
@@ -20,13 +20,15 @@ This implementation of Angular1.0 exposes an unstable client side stack and adva
 2. Install NPM and Bower deps
 
     ```bash
+    cd frontend 
+    ```
+
+    ```bash
     npm install 
     ```
 
 3. Serve build with livereload
 
     ```bash
-    cd frontend && gulp
+    npm start
     ```
-
-    _Navigate to localhost:8000_
