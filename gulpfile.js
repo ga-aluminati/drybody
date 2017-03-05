@@ -13,17 +13,17 @@
       del = require('del');
 
     var paths = {
-        build : './build',
-        buildImgs: './build/images',
-        buildStyles: './build/styles',
-        buildVendor: './build/libs',
-        buildApp: './build/app',
-        buildIndex: '/build/index.html',
-        index: './client/index.html',
-        markupSrc: './client/app/**/*.html',
-        imgSrc:'./client/images/**/*',
-        styleSrc: './client/styles/**/*.scss',
-        appSrc: ['./client/app/**/*.js', '!client/index.html'],
+        build : './dist',
+        buildImgs: './dist/images',
+        buildStyles: './dist/styles',
+        buildVendor: './dist/libs',
+        buildApp: './dist/app',
+        buildIndex: '/dist/index.html',
+        index: './src/client/index.html',
+        markupSrc: './src/client/app/**/*.html',
+        imgSrc:'./src/client/images/**/*',
+        styleSrc: './src/client/styles/**/*.scss',
+        appSrc: ['./src/client/app/**/*.js', '!src/client/index.html'],
         bowerSrc: './bower_components/**/*'
     };
 
@@ -43,10 +43,10 @@
             livereload: {
                 enable: true,
                 filter: function(fileName) {
-                if (fileName.match(/.map$/)) { // exclude all source maps from livereload
-                        return false;
+                if (fileName.match(/.map$/)) {
+                        return false; // exclude all source maps from livereload
                     } else {
-                        return true;
+                        return false;
                     }
                 }
             },
@@ -55,15 +55,15 @@
     });
 
     gulp.task('copyFiles', function () {
-        
+
         var buildLibs = gulp.src(mainBowerFiles())
             .pipe(gulp.dest(paths.buildVendor));
-            
+
         var appFiles = gulp.src(paths.appSrc)
             .pipe(angularFilesort())
             .pipe(ngAnnotate())
             .pipe(gulp.dest(paths.buildApp));
-        
+
         var appStyles = gulp.src(paths.styleSrc)
             .pipe(sass.sync({
                 outputStyle: 'compressed',
@@ -72,7 +72,7 @@
                 browsers: ['last 2 versions'],
                 cascade: false
             })).pipe(gulp.dest(paths.buildStyles));
-       
+
         var appImgs = gulp.src(paths.imgSrc)
             .pipe(gulp.dest(paths.buildImgs));
 

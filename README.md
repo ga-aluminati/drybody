@@ -1,11 +1,11 @@
 # drybody 
-_version: v0.1.0_
+_version: v0.1.1_
 
-This implementation of Angular1.0 exposes an unstable client side stack and advanced frontend architecture.
+An ES5 Angular 1.5 implementation in the style of [HotTowel](https://github.com/johnpapa/generator-hottowel)
 
 ##### Prerequisites
 
-1. Install [Node.js](http://nodejs.org)
+1. Install [Node.js](https://nodejs.org)
 
 2. Install gulp globally
 
@@ -15,19 +15,13 @@ This implementation of Angular1.0 exposes an unstable client side stack and adva
 
 ##### Quickstart
 
-1. Clone with [HTTPS](https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended) _recommended_
-
-2. Install NPM and Bower deps
-
-    ```bash
-    cd frontend 
-    ```
+1. Install deps
 
     ```bash
     npm install 
     ```
 
-3. Serve build with livereload
+2. Serve build with livereload
 
     ```bash
     npm start

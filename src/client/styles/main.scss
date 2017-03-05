@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-///* VARIABLES */ 
+///* VARIABLES */
 /// -----------------------------------------------------------------------------
 /// This file contains all application-wide VARIABLES
 /// -----------------------------------------------------------------------------
@@ -12,14 +12,14 @@ $text-color: rgb(34, 34, 34) !default;
 $hover-background: deepskyblue;
 $hover-color: tomato;
 $main: deepskyblue;
-$header: #e55e5e;
+$header: tomato;
 $footer: #70d29b;
 $aside-1: #ffca55;
 $aside-2: #ff88bc;
 $home-bg:#FBC02D;
 $about-bg: #18FFFF;
 
-///* FUNCTIONS */ 
+///* FUNCTIONS */
 /// -----------------------------------------------------------------------------
 /// This section contains all application-wide FUNCTIONS
 /// -----------------------------------------------------------------------------
@@ -29,7 +29,7 @@ $about-bg: #18FFFF;
   @return $multiplier * $font-size;
 }
 
-///* MIXINS */ 
+///* MIXINS */
 /// -----------------------------------------------------------------------------
 /// This section contains all application-wide MIXINS
 /// -----------------------------------------------------------------------------
@@ -61,10 +61,10 @@ $about-bg: #18FFFF;
 }
 
 @mixin order($val) {
-  -webkit-box-ordinal-group: $val;  
-  -moz-box-ordinal-group: $val;     
-  -ms-flex-order: $val;     
-  -webkit-order: $val;  
+  -webkit-box-ordinal-group: $val;
+  -moz-box-ordinal-group: $val;
+  -ms-flex-order: $val;
+  -webkit-order: $val;
   order: $val;
 }
 
@@ -130,7 +130,7 @@ $about-bg: #18FFFF;
   }
 }
 
-// /* VENDORS */ 
+// /* VENDORS */
 // -----------------------------------------------------------------------------
 // This section contains all application-wide VENDOR styles
 // -----------------------------------------------------------------------------
@@ -138,12 +138,12 @@ $about-bg: #18FFFF;
 @import
   'vendor/normalize';
 
-// /* BASE */ 
+// /* BASE */
 // -----------------------------------------------------------------------------
 // This section contains all application-wide BASE styles
 // -----------------------------------------------------------------------------
 
-/* A FLEX Layout */ 
+/* A FLEX Layout */
 
 .wrapper {
   @include flexbox();
@@ -175,10 +175,10 @@ $about-bg: #18FFFF;
 /* Large screens */
 @media all and (min-width: 800px) {
   /* Inverted order of first sidebar and main
-   * And tell the main element to take twice as much width as the other two sidebars 
+   * And tell the main element to take twice as much width as the other two sidebars
    */
   .main { flex: 2 0; }
-  
+
   .aside-1 { order: 1; }
   .main    { order: 2; }
   .aside-2 { order: 3; }
@@ -219,12 +219,12 @@ $about-bg: #18FFFF;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
-	display: flex;  
-	
+	display: flex;
+
 	-webkit-flex-flow: row wrap;
 	-ms-flex-flow: row wrap;
 	flex-flow: row wrap;
-	
+
 	// font-weight: bold;
 	text-align: center;
 }
@@ -261,27 +261,27 @@ $about-bg: #18FFFF;
 
 @media all and (min-width: 800px) {
   .main    { flex: 3 0; }
-  .aside-1 { order: 1; } 
+  .aside-1 { order: 1; }
   .main    { order: 2; }
   .aside-2 { order: 3; }
   .footer  { order: 4; }
 }
 
-// /* COMPONENTS */ 
+// /* COMPONENTS */
 // -----------------------------------------------------------------------------
 // This section contains all application-wide COMPONENT styles
 // ----------------------------------------------------------------------------
 
 .navigation {
-  margin: 0; 
+  margin: 0;
   background: transparent;
-  
+
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
+
   -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
@@ -319,11 +319,11 @@ $about-bg: #18FFFF;
     justify-content: space-around
   }
 }
-  
-.navigation a { 
-	text-align: center; 
+
+.navigation a {
+	text-align: center;
 	padding: 10px;
-	border-top: 1px solid rgba(255,255,255,0.3); 
+	border-top: 1px solid rgba(255,255,255,0.3);
 	border-bottom: 1px solid rgba(0,0,0,0.1)
 }
 
@@ -353,7 +353,7 @@ $about-bg: #18FFFF;
   }
 }
 
-// /* SCREENS */ 
+// /* SCREENS */
 // -----------------------------------------------------------------------------
 // This section contains all application-wide styles for each Screen
 // ----------------------------------------------------------------------------

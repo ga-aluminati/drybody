@@ -1,17 +1,14 @@
 {
   "name": "drybody",
-  "description": "An Angular1.0 boilerplate for client-side SPA in the style of Hottowel",
+  "description": "An Angular 1.5 implementation with SCSS and ngMaterial",
   "authors": [
     "Nathan Bloom"
   ],
   "license": "MIT",
   "keywords": [
-    "ga-aluminati",
     "angular",
-    "ui-router",
-    "hottowel",
-    "material",
-    "flex",
+    "angular-ui-router",
+    "ngMaterial",
     "scss"
   ],
   "dependencies": {

@@ -1,0 +1,45 @@
+{
+  "name": "drybody",
+  "version": "0.1.1",
+  "description": "An Angular 1.5 implementation",
+  "private": true,
+  "repository": {
+    "type": "git"
+  },
+  "engines": {
+    "npm": ">=3"
+  },
+  "scripts": {
+    "preinstall": "node build-scripts/node-version-check.js",
+    "install": "bower install",
+    "prestart": "gulp clean",
+    "start": "gulp"
+  },
+  "keywords": [
+    "ga-aluminati",
+    "angular",
+    "ui-router",
+    "scss"
+  ],
+  "author": "Nathan Bloom",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp-webserver": "0.9.1",
+    "serve-favicon": "2.0.1",
+    "bower": "1.7.9",
+    "del": "1.2.0",
+    "gulp": "3.9.1",
+    "gulp-angular-filesort": "1.1.1",
+    "gulp-autoprefixer": "2.3.1",
+    "gulp-inject": "1.0.1",
+    "gulp-ng-annotate": "1.1.0",
+    "gulp-nodemon": "2.0.3",
+    "gulp-plumber": "1.1.0",
+    "gulp-sass": "2.3.2",
+    "lodash": "3.10.0",
+    "main-bower-files": "2.13.1",
+    "node-sass": "4.5.0"
+  }
+}
