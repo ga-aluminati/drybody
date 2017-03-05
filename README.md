@@ -1,5 +1,5 @@
 # drybody 
-_version: v0.1.1_
+_version: v0.1.0_
 
 An ES5 Angular 1.5 implementation in the style of [HotTowel](https://github.com/johnpapa/generator-hottowel)
 
